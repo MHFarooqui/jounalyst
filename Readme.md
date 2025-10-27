@@ -70,7 +70,5 @@ local: [http://localhost:3000](http://localhost:3000)
 ## 📌 Tech Stack
 
 - **Node.js + Express** – Server & Routing
-- **Google Gemini API** – AI-powered lead intent classification
-- **json2csv** – CSV export
 
 ---
