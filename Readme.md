@@ -75,12 +75,12 @@ local POST: [http://localhost:3000](http://localhost:3000/api/users/login)
 
 
 
-![Alt text](images/Login.png)
+![Login API](./Images/Login.png)
 
 local POST: [http://localhost:3000](http://localhost:3000/api/users/login)
 
 
-![Alt text](images/Normalized_order.png)
+![Normalized Orders](./Images/Normalized_order.png)
 
 ## 📌 Tech Stack
 
