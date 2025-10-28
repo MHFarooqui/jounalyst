@@ -1,9 +1,19 @@
-const routes = require('express').Router();
-const zerodhaController = require('../Controllers/ZerodhaController');
+const express = require("express");
+const routes = express.Router();
+const zerodhaController = require("../Controllers/ZerodhaController");
 const Authenticat = require("../Middlewares/AuthMiddleware");
-routes.use(Authenticat.authenticateToken);
 
-routes.get('/orders', zerodhaController.GetOrders);
-routes.get('/orders/normalize', zerodhaController.NormalizeOrders);
+// ✅ Apply middleware only to specific routes
+routes.get(
+    "/orders",
+    Authenticat.authenticateToken,  // Protected route
+    zerodhaController.GetOrders
+);
+
+routes.get(
+    "/orders/normalize",
+    Authenticat.authenticateToken,  // Protected route
+    zerodhaController.NormalizeOrders
+);
 
 module.exports = routes;

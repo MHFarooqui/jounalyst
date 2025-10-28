@@ -32,6 +32,7 @@ module.exports = {
 
     Logout: async (req, res) => {
         //remove token on client side or from storage
+        
         return res.json({ message: "Logged out successfully" });
     }
 }
