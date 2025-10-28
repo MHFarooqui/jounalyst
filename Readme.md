@@ -73,12 +73,12 @@ local: [http://localhost:3000](http://localhost:3000)
 
 local POST: [http://localhost:3000](http://localhost:3000/api/users/login)
 
----
+
 
 ![Alt text](images/Login.png)
 
 local POST: [http://localhost:3000](http://localhost:3000/api/users/login)
----
+
 
 ![Alt text](images/Normalized_order.png)
 
