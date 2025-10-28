@@ -77,7 +77,7 @@ local POST: [http://localhost:3000](http://localhost:3000/api/users/login)
 
 ![Login API](./Images/Login.png)
 
-local POST: [http://localhost:3000](http://localhost:3000/api/users/login)
+local POST: [http://localhost:3000](http://localhost:3000/api/orders/normalize)
 
 
 ![Normalized Orders](./Images/Normalized_order.png)
