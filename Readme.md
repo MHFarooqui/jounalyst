@@ -71,13 +71,13 @@ local: [http://localhost:3000](http://localhost:3000)
 ### Working Api IMages
 
 
-local POST: [http://localhost:3000](http://localhost:3000/api/users/login)
+local POST: [http://localhost:3000/api/users/login](http://localhost:3000/api/users/login)
 
 
 
 ![Login API](./Images/Login.png)
 
-local POST: [http://localhost:3000](http://localhost:3000/api/orders/normalize)
+local Get: [http://localhost:3000/api/orders/normalize](http://localhost:3000/api/orders/normalize)
 
 
 ![Normalized Orders](./Images/Normalized_order.png)
